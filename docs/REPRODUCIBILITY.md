@@ -3,7 +3,7 @@
 ## Source and packaging
 
 Thirteen source notebooks were selected from read-only copies of the author's
-analysis directory obtained on 2026-10-19, yielding fourteen candidate notebooks.
+analysis directory obtained on 2026-10-19, yielding fourteen plotting notebooks.
 The final combined source `figure8.ipynb` was split into independent Figure 8
 (Labrador Sea) and Figure 9 (Southern Ocean) notebooks at the author's request.
 Both include source cells 0-4 for loading data; Figure 8 adds source cell 6 and
@@ -12,7 +12,7 @@ is not used. Per-file SHA-256 checksums, selected source-cell indices, and code 
 are recorded in `provenance.json`. The original server notebooks were not
 modified.
 
-Candidate packaging changes are restricted to:
+Packaging changes are restricted to:
 
 - Removing stored cell outputs, execution counts, attachments, transient cell
   metadata, and notebook widgets.
@@ -53,12 +53,19 @@ membership, station records, third-party climatologies, or profile counts.
 Availability of those figure inputs must be resolved separately. No data,
 weights, credentials, font files, or manuscript documents are included here.
 
-## Publication plan
+## Repository and data identifiers
 
-This is an unpublished local candidate, not a public code release. The author
-confirmed the target repository as haolin111/SJTU-ViT-MLD, initially private,
-with the MIT License and Copyright (c) 2026 Haolin Xu. Before upload, confirm
-the final file inventory. Availability of figure inputs remains a separate
-task. Dataset and software identifiers should remain distinct. After a
-public code release is archived, add its software DOI and citation metadata;
-do not use a reserved dataset DOI as if it identified the plotting software.
+Code repository: https://github.com/haolin111/SJTU-ViT-MLD.
+The code is distributed under the MIT License, Copyright (c) 2026 Haolin Xu.
+
+The associated SJTU-ViT MLD data product (version 1.0) is archived at
+https://doi.org/10.5281/zenodo.23463931 under the Creative Commons Attribution
+4.0 International (CC BY 4.0) licence. This DOI identifies the data product,
+not the plotting software. No separate software DOI has been assigned.
+Record the exact Git commit used for reproducibility. If a software archive
+is created later, its software DOI and citation metadata should be added
+separately.
+
+Availability of the additional figure inputs remains distinct from access
+to this code and to the public MLD product. Consult DATA_REQUIREMENTS.md
+before attempting to reproduce the figures.

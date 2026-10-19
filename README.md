@@ -1,6 +1,6 @@
 # SJTU-ViT MLD: manuscript figure code
 
-Candidate plotting-code release accompanying **A monthly 1 degree global ocean
+Analysis and plotting code accompanying **A monthly 1 degree global ocean
 mixed layer depth dataset for 1982-2023 developed with SJTU-ViT**.
 
 This repository currently contains the analysis and plotting notebooks for
@@ -82,7 +82,7 @@ used. See the [figure index](docs/FIGURE_INDEX.md) before running the notebooks.
 
 All figure images are written to `output_dir`; generated intermediate files are
 written to `work_dir`. These directories and all input data are excluded from
-the candidate code release. No notebook is automatically executed at download
+the code release. No notebook is automatically executed at download
 or import time by the packaging checks.
 
 ## Verification and status
@@ -91,16 +91,26 @@ or import time by the packaging checks.
 python tools/validate_repository.py
 ```
 
-The candidate has been checked for notebook JSON integrity, Python syntax,
+The repository has been checked for notebook JSON integrity, Python syntax,
 cleared outputs, path configuration coverage, and common credential patterns.
 The numerical analyses have **not** been rerun in a clean environment with all
 required data. `requirements.txt` is not an exact environment lockfile. A
 successful static check does not establish numerical or visual reproduction
 of the published figures.
 
-The associated data record, code-repository URL, software version, and citation
-will be finalized before public release. No trained weights, original
-observations, third-party data, font files, or manuscript documents are included.
+## Repository and associated data
+
+Code repository: https://github.com/haolin111/SJTU-ViT-MLD.
+
+The associated SJTU-ViT MLD data product (version 1.0) is archived at
+https://doi.org/10.5281/zenodo.23463931 under the Creative Commons Attribution
+4.0 International (CC BY 4.0) licence. This DOI identifies the data product,
+not the plotting software. No separate software DOI has been assigned.
+Record the exact Git commit used when citing or reusing the code.
+
+No trained weights, original observations, third-party data, font files, or
+manuscript documents are included. Required figure inputs and their
+availability are described in [data requirements](docs/DATA_REQUIREMENTS.md).
 
 ## License
 
