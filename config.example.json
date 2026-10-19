@@ -1,0 +1,24 @@
+{
+  "paths": {
+    "training_pairs_file": "data/evaluation/mld_preds_80train.nc",
+    "validation_pairs_file": "data/evaluation/mld_preds_20val.nc",
+    "paired_mld_file": "data/evaluation/mld_preds_final10.nc",
+    "reccap_mask_file": "data/masks/RECCAP2_region_masks_all.nc",
+    "argo_climatology_file": "data/climatologies/Argo_mixedlayers_monthlyclim_04142022.nc",
+    "de_boyer_climatology_file": "data/climatologies/mld_dr003_ref10m.nc",
+    "iap_mld_file": "data/comparisons/IAP_mld003.nc",
+    "oras_mld_pattern": "data/comparisons/oras5/mld003/*",
+    "bats_profiles_file": "data/stations/BAT_merged_processed.csv",
+    "tao_temperature_file": "data/stations/TAO/t_xyzt_mon.cdf",
+    "tao_salinity_file": "data/stations/TAO/s_xyzt_mon.cdf",
+    "hot_source_file": "data/stations/aloha_mld.txt",
+    "papa_density_file": "data/stations/d50n145w_mon.cdf",
+    "sots_mld_file": "data/stations/SOTS_monthly_MLD_sigma0_003_2010_2020.nc",
+    "pirata_mld_file": "data/stations/PIRATA_10S10W_MLD_sigma0_003_monthly_2010_2020.nc",
+    "wod_monthly_mld_file": "data/observations/obs_MLD_d003_monthly_grid_1982_2023.nc",
+    "wod_profile_dir": "data/observations/mld_byWOD",
+    "font_dir": "fonts",
+    "output_dir": "outputs",
+    "work_dir": "work"
+  }
+}

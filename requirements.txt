@@ -1,0 +1,16 @@
+# Inferred dependencies, not an exact or clean-environment-tested lockfile.
+# Original notebook metadata reports Python 3.9.18.
+numpy
+pandas
+xarray
+netCDF4
+dask[array]
+matplotlib
+cartopy
+scipy
+scikit-learn
+cmaps
+gsw
+tqdm
+jupyterlab
+ipykernel
